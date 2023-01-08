@@ -3,13 +3,13 @@ import re
 import shutil
 import unicodedata
 import time
-from datetime import date
+import datetime
 import wget
 import gzip
 from bs4 import BeautifulSoup
 
 def pubmed_abs_generation(path = './'): 
-    fdate = date.today().strftime('%Y')
+    fdate = datetime.date.today().strftime('%Y')
     path = str(path + str(f"/pubmed_abstract_output_{fdate}"))
     try:
         os.mkdir(path)
