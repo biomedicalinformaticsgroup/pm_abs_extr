@@ -4,7 +4,7 @@ import shutil
 import unicodedata
 import time
 import datetime
-import wget
+import wget 
 import gzip
 from bs4 import BeautifulSoup
 
