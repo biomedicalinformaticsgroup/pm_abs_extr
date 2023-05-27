@@ -40,13 +40,13 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up `cadmus` for local development.
+Ready to contribute? Here's how to set up `pm_abs_extr` for local development.
 
-1. Download a copy of `cadmus` locally.
-2. Install `cadmus` using `pip`:
+1. Download a copy of `pm_abs_extr` locally.
+2. Install `pm_abs_extr` using `pip`:
 
     ```console
-    $ pip install ./cadmus
+    $ pip install ./pm_abs_extr
     ```
 
 ## Pull Request Guidelines
@@ -59,5 +59,5 @@ Before you submit a pull request, check that it meets these guidelines:
 
 ## Code of Conduct
 
-Please note that the `cadmus` project is released with a 
+Please note that the `pm_abs_extr` project is released with a 
 Code of Conduct. By contributing to this project you agree to abide by its terms.
