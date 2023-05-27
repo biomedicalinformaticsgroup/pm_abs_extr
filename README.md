@@ -20,7 +20,7 @@ pubmed_abs_generation(PATH)
 
 ## The result
 
-The function will generate a pre-made directory. Within ```./pubmed_abstract_output_YYYY```, you will find 2 sub-directories: 'xml_raw_files' and 'parsed_files'. In the xml_raw_files directory, it saves all the files requested from PubMed as a .gz format and their correponding unzip file. While in the 'parsed_files' directory we have one directory where some of the metadata are saved and the abstracts is saved in the other directory. 
+The function will generate a pre-made directory. Within ```$YOUR_PATH$/pubmed_abstract_output_YYYY```, you will find 2 subdirectories: 'xml_raw_files' and 'parsed_files'. In the xml_raw_files directory, it saves all the files requested from PubMed as a .gz format and their correponding unzip file. While in the 'parsed_files' directory we have one directory where the selected metadata are saved in the 'metadata' subdirectory and the abstracts are saved in the 'abstracts' subdirectory. 
 The metadata files are composed of, when available:
 - PMID: The PubMed Identifier associated with the publication.
 - TITLE: Title of the publication.
