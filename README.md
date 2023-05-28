@@ -25,6 +25,8 @@ The only function available in this repository is called 'pubmed_abs_generation'
 from pm_abs_extr import pubmed_abs_generation
 pubmed_abs_generation(PATH)
 ```
+ 
+ The funtion is extracting the files from both the [/pubmed/baseline](https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/) and [/pubmed/updatefiles](https://ftp.ncbi.nlm.nih.gov/pubmed/updatefiles/) APIs using ftp requests.
 
 ## The result
 
