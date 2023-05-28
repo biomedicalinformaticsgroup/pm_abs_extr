@@ -9,6 +9,14 @@ pm_abs_extr has a number of dependencies on other Python packages, it is recomme
 
 `pip install ./pm_abs_extr`
 
+After installation, you can remove the file if you want using:
+
+`rm -rf pm_abs_extr`
+
+You can also uninstall pm_abs_extr using:
+
+`pip uninstall pm_abs_extr`
+
 ## Get started
 
 The only function available in this repository is called 'pubmed_abs_generation'. It only takes one argument 'PATH', which is the directory you want to save the output in. It has the default value './' meaning the current directory.
